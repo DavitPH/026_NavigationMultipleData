@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">026_NavigationMultipleData</string>
+    <string name="nama">Nama</string>
+    <string name="noHp">Nomer Hp</string>
+    <string name="alamat">Alamat</string>
+    <string name="submit">Submit</string>
+    <string name="back">Kembali</string>
+    <string name="back_button">Kembali</string>
+    <string name="confirm">Konfirmasi</string>
+    <string name="next">Lanjut</string>
+    <string name="Cencel">Batal</string>
+    <string name="vanila">Vanila</string>
+    <string name="lemon">Lemon</string>
+    <string name="natural">Natural</string>
+    <string name="milk">Milky</string>
+    <string name="lyche">Lychee</string>
+    <string name="order_summary">Ringkasan Order</string>
+    <string name="send">Send Order to Another App</string>
+    <string name="quantity">Jumlah</string>
+    <string name="flavor">Rasa</string>
+    <string name="subtotal_price">Subtotal : Rp. %s</string>
+    <string name="total_price">Total %s</string>
 </resources>
