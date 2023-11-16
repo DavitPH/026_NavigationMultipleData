@@ -102,12 +102,12 @@ fun Order(
                 horizontalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.padding_medium)),
                 verticalAlignment = Alignment.Bottom
             ) {
-                OutlinedButton(modifier = Modifier.weight(1f), onClick = onNextButtonClicked) {
+                OutlinedButton(modifier = Modifier.weight(1f), onClick = onCencelButtonClicked) {
                     Text(stringResource(R.string.Cencel))
                 }
                 Button(modifier = Modifier.weight(1f),
                     enabled = textJmlBeli.isNotEmpty(),
-                    onClick = onCencelButtonClicked)
+                    onClick = onNextButtonClicked)
                 {
                     Text(stringResource(R.string.next))
                 }
